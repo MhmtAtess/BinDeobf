@@ -1,0 +1,37 @@
+# Binary Analysis Dependencies
+pefile==2023.2.7
+lief==0.14.1
+python-magic==0.4.27
+
+# .NET Decompilation (dnlib.dll is loaded via pythonnet)
+# dnlib==3.6.0 (NuGet package, dnlib.dll included in project)
+pythonnet>=3.0.3
+
+# Disassembly & Native Analysis
+capstone==5.0.1
+keystone-engine==0.9.2
+zydis==4.0.0
+
+# Ghidra Integration (PyGhidra)
+# Note: Requires Java and Ghidra installation
+# pyghidra==0.4.0
+
+# Rizin/Cutter Integration
+# rzpipe==0.1.0
+
+# CLI and API
+typer==0.12.3
+fastapi==0.115.0
+uvicorn[standard]==0.30.5
+rich==13.9.4
+
+# Utilities
+click==8.1.7
+pydantic==2.8.2
+pyyaml==6.0.1
+colorama==0.4.6
+
+# Development Tools
+black==24.10.0
+pytest==8.2.2
+mypy==1.11.0
